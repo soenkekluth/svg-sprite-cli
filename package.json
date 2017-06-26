@@ -1,0 +1,31 @@
+{
+  "name": "svg-sprite-cli",
+  "version": "1.0.0",
+  "description": "create svg sprites",
+  "main": "index.js",
+  "bin": {
+    "svg-sprite": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soenkekluth/svg-sprite-cli.git"
+  },
+  "keywords": [],
+  "author": "Sönke Kluth <soenke.kluth@gmail.com> (http://soenkekluth.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soenkekluth/svg-sprite-cli/issues"
+  },
+  "homepage": "https://github.com/soenkekluth/svg-sprite-cli#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-filter": "^5.0.0",
+    "gulp-svg-sprites": "^4.1.1",
+    "gulp-svg2png": "^2.0.2",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {}
+}
