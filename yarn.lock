@@ -721,9 +721,9 @@ gulp-svg-sprites@^4.1.1:
     through2 "2.0.1"
     vinyl "1.2.0"
 
-"gulp-svg2png@https://github.com/soenkekluth/gulp-svg2png.git":
+gulp-svg2png@^2.0.2:
   version "2.0.2"
-  resolved "https://github.com/soenkekluth/gulp-svg2png.git#e6c14c94afd259ea0e0ff807ff94408e04aa645e"
+  resolved "https://registry.yarnpkg.com/gulp-svg2png/-/gulp-svg2png-2.0.2.tgz#dc9393802d410211e9cc56db3acf85400d929144"
   dependencies:
     gulp-util "^3.0.7"
     map-stream "0.0.6"

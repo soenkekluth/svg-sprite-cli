@@ -11,7 +11,7 @@ var filter    = require('gulp-filter');
 var svg2png   = require('gulp-svg2png');
 
 
-const template = fs.readFileSync("./template/sprite.scss", "utf-8");
+const template = fs.readFileSync(__dirname + "/template/sprite.scss", "utf-8");
 
 var src;
 var dest;
