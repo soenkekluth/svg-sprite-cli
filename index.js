@@ -7,8 +7,8 @@ const util = require('util');
 
 const gulp = require('gulp');
 const svgSprite = require('gulp-svg-sprites');
-var filter    = require('gulp-filter');
-var svg2png   = require('gulp-svg2png');
+const filter    = require('gulp-filter');
+const svg2png   = require('gulp-svg2png');
 
 
 const template = fs.readFileSync(__dirname + "/template/sprite.scss", "utf-8");
@@ -35,10 +35,10 @@ var config = argv.config || {
     templates: {
       scss: template
     },
-    // cssFile: 'scss/_sprite.scss',
-    // svg: {
-    //   sprite: 'img/sprite.svg'
-    // },
+    cssFile: 'scss/sprite.scss',
+    svg: {
+      sprite: 'sprite/sprite.svg'
+    },
     // preview: false,
     padding: 10,
 
