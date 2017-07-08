@@ -701,9 +701,9 @@ gulp-filter@^5.0.0:
     multimatch "^2.0.0"
     streamfilter "^1.0.5"
 
-gulp-svg-sprites@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/gulp-svg-sprites/-/gulp-svg-sprites-4.1.1.tgz#4f5e7d393e2c0af64e64c0f20ebc798de6fae1a9"
+gulp-svg-sprites@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/gulp-svg-sprites/-/gulp-svg-sprites-4.1.2.tgz#ab0daed16be24a1e1fa7248dd3def700f3e0292e"
   dependencies:
     gulp-util "3.0.7"
     lodash "4.14.1"

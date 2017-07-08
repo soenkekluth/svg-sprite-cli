@@ -1,6 +1,6 @@
 {
   "name": "svg-sprite-cli",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "create svg sprites",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-filter": "^5.0.0",
-    "gulp-svg-sprites": "^4.1.1",
+    "gulp-svg-sprites": "^4.1.2",
     "gulp-svg2png-fix": "^2.1.0",
     "minimist": "^1.2.0"
   }
