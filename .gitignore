@@ -3,3 +3,5 @@ node_modules
 /dist
 /assets
 /es
+svg-sprite-cli.sublime-project
+svg-sprite-cli.sublime-workspace

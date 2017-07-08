@@ -247,10 +247,8 @@ commander@1.0.x:
     keypress "0.1.x"
 
 commander@^2.9.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.10.0.tgz#e1f5d3245de246d1a5ca04702fa1ad1bd7e405fe"
-  dependencies:
-    graceful-readlink ">= 1.0.0"
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -472,11 +470,9 @@ fd-slicer@~1.0.1:
   dependencies:
     pend "~1.2.0"
 
-file-url@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/file-url/-/file-url-1.1.0.tgz#a0f9cf3eb6904c9b1d3a6790b83a976fc40217bb"
-  dependencies:
-    meow "^3.7.0"
+file-url@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/file-url/-/file-url-2.0.2.tgz#e951784d79095127d3713029ab063f40818ca2ae"
 
 filename-regex@^2.0.0:
   version "2.0.1"
@@ -697,10 +693,6 @@ graceful-fs@~1.2.0:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-1.2.3.tgz#15a4806a57547cb2d2dbf27f42e89a8c3451b364"
 
-"graceful-readlink@>= 1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
-
 gulp-filter@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/gulp-filter/-/gulp-filter-5.0.0.tgz#cfa81966fb67884f2ba754b067152929428d59bc"
@@ -721,14 +713,14 @@ gulp-svg-sprites@^4.1.1:
     through2 "2.0.1"
     vinyl "1.2.0"
 
-gulp-svg2png@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/gulp-svg2png/-/gulp-svg2png-2.0.2.tgz#dc9393802d410211e9cc56db3acf85400d929144"
+gulp-svg2png-fix@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-svg2png-fix/-/gulp-svg2png-fix-2.1.0.tgz#f3906c4fe96e12320f67eef60e80f09bb9db7dd0"
   dependencies:
     gulp-util "^3.0.7"
-    map-stream "0.0.6"
+    map-stream "0.0.7"
     map-stream-limit "^1.1.0"
-    svg2png "^3.0.0"
+    svg2png "^4.1.1"
 
 gulp-util@3.0.7:
   version "3.0.7"
@@ -1180,10 +1172,6 @@ lodash._root@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/lodash._root/-/lodash._root-3.0.1.tgz#fba1c4524c19ee9a5f8136b4609f017cf4ded692"
 
-lodash.assign@^4.1.0, lodash.assign@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
-
 lodash.escape@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/lodash.escape/-/lodash.escape-3.2.0.tgz#995ee0dc18c1b48cc92effae71a10aab5b487698"
@@ -1281,11 +1269,11 @@ map-stream@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.0.3.tgz#94759c696083c312b3fc3a299e1c64a0423ef1ae"
 
-map-stream@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.0.6.tgz#d2ef4eb811a28644c7a8989985c69c2fdd496827"
+map-stream@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.0.7.tgz#8a1f07896d82b10926bd3744a2420009f88974a8"
 
-meow@^3.3.0, meow@^3.7.0:
+meow@^3.3.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
   dependencies:
@@ -1536,7 +1524,7 @@ pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
 
-phantomjs-prebuilt@^2.1.10:
+phantomjs-prebuilt@^2.1.14:
   version "2.1.14"
   resolved "https://registry.yarnpkg.com/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.14.tgz#d53d311fcfb7d1d08ddb24014558f1188c516da0"
   dependencies:
@@ -1909,14 +1897,14 @@ svg-sprite-data@3.1.0:
     svgo "0.6.6"
     xml-parser "^1.2.1"
 
-svg2png@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/svg2png/-/svg2png-3.1.1.tgz#2f908fb65744d725aa4a4602ff9bc4b7462ef5d8"
+svg2png@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/svg2png/-/svg2png-4.1.1.tgz#6b9e0398aa418778b6436e127a2fb7f00d499c28"
   dependencies:
-    file-url "^1.1.0"
-    phantomjs-prebuilt "^2.1.10"
+    file-url "^2.0.0"
+    phantomjs-prebuilt "^2.1.14"
     pn "^1.0.0"
-    yargs "^5.0.0"
+    yargs "^6.5.0"
 
 svgo@0.6.6:
   version "0.6.6"
@@ -2077,10 +2065,6 @@ which@^1.2.12, which@~1.2.10:
   dependencies:
     isexe "^2.0.0"
 
-window-size@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.2.0.tgz#b4315bb4214a3d7058ebeee892e13fa24d98b075"
-
 wrap-ansi@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
@@ -2106,21 +2090,20 @@ y18n@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
 
-yargs-parser@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-3.2.0.tgz#5081355d19d9d0c8c5d81ada908cb4e6d186664f"
+yargs-parser@^4.2.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-4.2.1.tgz#29cceac0dc4f03c6c87b4a9f217dd18c9f74871c"
   dependencies:
     camelcase "^3.0.0"
-    lodash.assign "^4.1.0"
 
-yargs@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-5.0.0.tgz#3355144977d05757dbb86d6e38ec056123b3a66e"
+yargs@^6.5.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-6.6.0.tgz#782ec21ef403345f830a808ca3d513af56065208"
   dependencies:
+    camelcase "^3.0.0"
     cliui "^3.2.0"
     decamelize "^1.1.1"
     get-caller-file "^1.0.1"
-    lodash.assign "^4.2.0"
     os-locale "^1.4.0"
     read-pkg-up "^1.0.1"
     require-directory "^2.1.1"
@@ -2128,9 +2111,8 @@ yargs@^5.0.0:
     set-blocking "^2.0.0"
     string-width "^1.0.2"
     which-module "^1.0.0"
-    window-size "^0.2.0"
     y18n "^3.2.1"
-    yargs-parser "^3.2.0"
+    yargs-parser "^4.2.0"
 
 yauzl@2.4.1:
   version "2.4.1"

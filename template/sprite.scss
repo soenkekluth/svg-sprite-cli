@@ -1,7 +1,7 @@
 .<%=common %>,
 [class*="<%=common %>-"] {
     font-size: <%= baseSize %>px;
-    &:before {
+    &::before {
       content:' ';
       vertical-align:middle;
       display: inline-block;
@@ -15,20 +15,18 @@
     }
 }
 
-
 <% _.forEach(svg, function(svgItem) { %>
-
 .<%=common %>-<%=svgItem.name%> {
-  &:before {
-      background-position: <%= svgItem.relPositionX %>em <%= svgItem.relPositionY %>em;
-      width: <%= svgItem.relWidth %>em;
-      height: <%= svgItem.relHeight %>em;
-    }
+	&::before {
+    background-position: <%= svgItem.relPositionX %>em <%= svgItem.relPositionY %>em;
+    width: <%= svgItem.relWidth %>em;
+    height: <%= svgItem.relHeight %>em;
   }
+}
 
-  @mixin <%=svgItem.name%>-icon(){
-    @extend .<%=common %>-<%=svgItem.name%>;
-  }
+@mixin <%=svgItem.name%>-icon() {
+  @extend .<%=common %>-<%=svgItem.name%>;
+}
 <% }); %>
 
 

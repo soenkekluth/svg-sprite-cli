@@ -10,6 +10,7 @@ const svgSprite = require('gulp-svg-sprites');
 const filter    = require('gulp-filter');
 const svg2png   = require('gulp-svg2png');
 
+const relative = !!argv.relative;
 
 const template = fs.readFileSync(__dirname + "/template/sprite.scss", "utf-8");
 
@@ -26,22 +27,21 @@ if(!(fs.existsSync(src) || fs.existsSync(dest))){
   process.abort();
   return;
 }
+
+// path.relative(from, to)
 // console.log(src, dest, argv);
 
 var config = argv.config || {
-
     mode: "sprite",
     common: "svg-icon",
     templates: {
       scss: template
     },
-    cssFile: 'scss/sprite.scss',
+    cssFile: 'scss/sprite.css',
     svg: {
       sprite: 'sprite/sprite.svg'
     },
-    // preview: false,
     padding: 10,
-
     selector: "%f"
 };
 
