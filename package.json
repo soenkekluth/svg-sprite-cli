@@ -1,6 +1,6 @@
 {
   "name": "svg-sprite-cli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "create svg sprites",
   "main": "index.js",
   "bin": {

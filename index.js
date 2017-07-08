@@ -8,7 +8,7 @@ const util = require('util');
 const gulp = require('gulp');
 const svgSprite = require('gulp-svg-sprites');
 const filter    = require('gulp-filter');
-const svg2png   = require('gulp-svg2png');
+const svg2png   = require('gulp-svg2png-fix');
 
 const relative = !!argv.relative;
 
