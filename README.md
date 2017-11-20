@@ -1,4 +1,6 @@
 # svg-sprite-cli
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/soenkekluth/svg-sprite-cli.svg)](https://greenkeeper.io/)
 create svg sprites
 
 
